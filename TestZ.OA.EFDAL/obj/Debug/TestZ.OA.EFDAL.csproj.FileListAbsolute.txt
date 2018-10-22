@@ -1,0 +1,12 @@
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\bin\Debug\TestZ.OA.EFDAL.dll.config
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\bin\Debug\TestZ.OA.EFDAL.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\bin\Debug\TestZ.OA.EFDAL.pdb
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\bin\Debug\EntityFramework.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\bin\Debug\TestZ.OA.Model.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\bin\Debug\TestZ.OA.Model.pdb
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\bin\Debug\EntityFramework.xml
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\obj\Debug\TestZ.OA.EFDAL.csprojResolveAssemblyReference.cache
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\obj\Debug\TestZ.OA.EFDAL.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDAL\obj\Debug\TestZ.OA.EFDAL.pdb

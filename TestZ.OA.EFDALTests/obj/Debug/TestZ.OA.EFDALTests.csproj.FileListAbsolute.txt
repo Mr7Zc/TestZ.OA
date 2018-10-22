@@ -1,0 +1,16 @@
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\TestZ.OA.EFDALTests.dll.config
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\TestZ.OA.EFDALTests.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\TestZ.OA.EFDALTests.pdb
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\TestZ.OA.EFDAL.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\TestZ.OA.Model.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\EntityFramework.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\EntityFramework.SqlServer.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\TestZ.OA.EFDAL.pdb
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\TestZ.OA.Model.pdb
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\EntityFramework.xml
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\EntityFramework.SqlServer.xml
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\obj\Debug\TestZ.OA.EFDALTests.csprojResolveAssemblyReference.cache
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\obj\Debug\TestZ.OA.EFDALTests.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.EFDALTests\obj\Debug\TestZ.OA.EFDALTests.pdb

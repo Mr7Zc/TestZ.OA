@@ -1,0 +1,11 @@
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\TestZ.OA.Model.dll.config
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\TestZ.OA.Model.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\TestZ.OA.Model.pdb
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\EntityFramework.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\EntityFramework.xml
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\obj\Debug\TestZ.OA.Model.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\obj\Debug\TestZ.OA.Model.pdb

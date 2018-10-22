@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>0560cf5e-bf9a-4ce9-b4d5-e09746412c1d</ProjectGuid>
+    <ProjectGuid>{0560CF5E-BF9A-4CE9-B4D5-E09746412C1D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TestZ.OA.BLL</RootNamespace>
@@ -30,24 +30,37 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="OrderInfoService.cs" />
+    <Compile Include="UserInfoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestZ.OA.DALFactory\TestZ.OA.DALFactory.csproj">
+      <Project>{0c950b6f-2351-484c-95fc-b1485f7e6a6f}</Project>
+      <Name>TestZ.OA.DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.EFDAL\TestZ.OA.EFDAL.csproj">
+      <Project>{f17f92e2-4df2-4943-b269-747e06e9144d}</Project>
+      <Name>TestZ.OA.EFDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.IDAL\TestZ.OA.IDAL.csproj">
+      <Project>{75a1edea-1717-4344-9733-a4c47a1b37a9}</Project>
+      <Name>TestZ.OA.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.Model\TestZ.OA.Model.csproj">
+      <Project>{1f4d18a3-787c-43fb-be10-eb6756026b08}</Project>
+      <Name>TestZ.OA.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -57,5 +70,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
- </Project>
+</Project>

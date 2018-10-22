@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.Model", "TestZ.OA.Model\TestZ.OA.Model.csproj", "{1F4D18A3-787C-43FB-BE10-EB6756026B08}"
 EndProject
@@ -12,6 +12,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.BLL", "TestZ.OA.BLL\TestZ.OA.BLL.csproj", "{0560CF5E-BF9A-4CE9-B4D5-E09746412C1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.UI.Portal", "TestZ.OA.UI.Portal\TestZ.OA.UI.Portal.csproj", "{B9839C6B-2B76-45DD-8C63-5E67968414E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.EFDALTests", "TestZ.OA.EFDALTests\TestZ.OA.EFDALTests.csproj", "{F278803B-E23B-4177-92D3-56288A8650DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.IDAL", "TestZ.OA.IDAL\TestZ.OA.IDAL.csproj", "{75A1EDEA-1717-4344-9733-A4C47A1B37A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.DALFactory", "TestZ.OA.DALFactory\TestZ.OA.DALFactory.csproj", "{0C950B6F-2351-484C-95FC-B1485F7E6A6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{B9839C6B-2B76-45DD-8C63-5E67968414E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9839C6B-2B76-45DD-8C63-5E67968414E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9839C6B-2B76-45DD-8C63-5E67968414E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F278803B-E23B-4177-92D3-56288A8650DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F278803B-E23B-4177-92D3-56288A8650DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F278803B-E23B-4177-92D3-56288A8650DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F278803B-E23B-4177-92D3-56288A8650DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A1EDEA-1717-4344-9733-A4C47A1B37A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A1EDEA-1717-4344-9733-A4C47A1B37A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A1EDEA-1717-4344-9733-A4C47A1B37A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A1EDEA-1717-4344-9733-A4C47A1B37A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C950B6F-2351-484C-95FC-B1485F7E6A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C950B6F-2351-484C-95FC-B1485F7E6A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C950B6F-2351-484C-95FC-B1485F7E6A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C950B6F-2351-484C-95FC-B1485F7E6A6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
