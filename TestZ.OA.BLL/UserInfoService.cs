@@ -20,6 +20,9 @@ namespace TestZ.OA.BLL
         //IUserInfoDal UserInfoDal = new UserInfoDal();
 
         IUserInfoDal UserInfoDal = StaticDalFactory.GetUserInfoDal();
+
+        //更高级 IOC DI依赖注入的方式 string.net
+
         public UserInfo Add(UserInfo  userInfo)
         {
             return UserInfoDal.Add(userInfo);
