@@ -9,3 +9,15 @@ E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\zh-Hans\EntityFramework.reso
 E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
 E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\obj\Debug\TestZ.OA.Model.dll
 E:\WStation\TestZ\TestZ.OA\TestZ.OA.Model\obj\Debug\TestZ.OA.Model.pdb
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\bin\Debug\TestZ.OA.Model.dll.config
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\bin\Debug\TestZ.OA.Model.dll
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\bin\Debug\TestZ.OA.Model.pdb
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\bin\Debug\EntityFramework.dll
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\bin\Debug\EntityFramework.xml
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\obj\Debug\TestZ.OA.Model.csprojResolveAssemblyReference.cache
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\obj\Debug\TestZ.OA.Model.dll
+E:\workplace\NETprograms\TestZ.OA\TestZ.OA.Model\obj\Debug\TestZ.OA.Model.pdb

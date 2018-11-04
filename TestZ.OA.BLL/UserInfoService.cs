@@ -19,13 +19,18 @@ namespace TestZ.OA.BLL
         //依赖接口编程
         //IUserInfoDal UserInfoDal = new UserInfoDal();
 
-        IUserInfoDal UserInfoDal = StaticDalFactory.GetUserInfoDal();
+        //IUserInfoDal UserInfoDal = StaticDalFactory.GetUserInfoDal();
+        DbSession dbSession = new DbSession();
 
         //更高级 IOC DI依赖注入的方式 string.net
 
-        public UserInfo Add(UserInfo  userInfo)
+        public UserInfo Add(UserInfo  userInfo) //单元工作模式
         {
-            return UserInfoDal.Add(userInfo);
+
+            //return UserInfoDal.Add(userInfo);
+            dbSession.UserInfoDal.Add(userInfo);
+                        
+            dbSession.SaveChanges();   //数据提交的权利从数据库访问层提到了逻辑层
         }
     }
 }

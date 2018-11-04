@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.Model", "TestZ.OA.Model\TestZ.OA.Model.csproj", "{1F4D18A3-787C-43FB-BE10-EB6756026B08}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.Common", "TestZ.OA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.BLL", "TestZ.OA.BLL\TestZ.OA.BLL.csproj", "{0560CF5E-BF9A-4CE9-B4D5-E09746412C1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.UI.Portal", "TestZ.OA.UI.Portal\TestZ.OA.UI.Portal.csproj", "{B9839C6B-2B76-45DD-8C63-5E67968414E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.UI.Portal", "TestZ.OA.UI.Portal\TestZ.OA.UI.Portal.csproj", "{5A6FDB12-8EB7-4696-B2D6-F62BDB8DBBAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.EFDALTests", "TestZ.OA.EFDALTests\TestZ.OA.EFDALTests.csproj", "{F278803B-E23B-4177-92D3-56288A8650DD}"
 EndProject
@@ -41,10 +41,10 @@ Global
 		{0560CF5E-BF9A-4CE9-B4D5-E09746412C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0560CF5E-BF9A-4CE9-B4D5-E09746412C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0560CF5E-BF9A-4CE9-B4D5-E09746412C1D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9839C6B-2B76-45DD-8C63-5E67968414E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9839C6B-2B76-45DD-8C63-5E67968414E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9839C6B-2B76-45DD-8C63-5E67968414E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9839C6B-2B76-45DD-8C63-5E67968414E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6FDB12-8EB7-4696-B2D6-F62BDB8DBBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6FDB12-8EB7-4696-B2D6-F62BDB8DBBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6FDB12-8EB7-4696-B2D6-F62BDB8DBBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6FDB12-8EB7-4696-B2D6-F62BDB8DBBAA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F278803B-E23B-4177-92D3-56288A8650DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F278803B-E23B-4177-92D3-56288A8650DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F278803B-E23B-4177-92D3-56288A8650DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
