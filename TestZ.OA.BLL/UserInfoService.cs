@@ -20,7 +20,10 @@ namespace TestZ.OA.BLL
         //IUserInfoDal UserInfoDal = new UserInfoDal();
 
         //IUserInfoDal UserInfoDal = StaticDalFactory.GetUserInfoDal();
-        DbSession dbSession = new DbSession();
+        //DbSession dbSession = new DbSession();
+
+        //IDbSession dbSession = new DbSession();
+        private IDbSession dbSession = DbSessionFactory.GetCurrentDbSession();
 
         //更高级 IOC DI依赖注入的方式 string.net
 

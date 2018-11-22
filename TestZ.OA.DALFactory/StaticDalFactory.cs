@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using TestZ.OA.EFDAL;
 using TestZ.OA.IDAL;
 
@@ -22,6 +23,7 @@ namespace TestZ.OA.DALFactory
         public static IUserInfoDal GetUserInfoDal()
         {
             //return new UOrderInfoDal();
+            HttpRuntime.Cache.Get("");
 
             //把上面的new去掉，希望改一个配置那么创建实例就发生变化，不需要改代码
 

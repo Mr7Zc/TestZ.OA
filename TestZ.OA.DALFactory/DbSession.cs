@@ -8,7 +8,7 @@ using TestZ.OA.IDAL;
 
 namespace TestZ.OA.DALFactory
 {
-   public  class DbSession
+   public  class DbSession :IDbSession
     {
         #region 简单工厂或抽象工厂部分
         public IUserInfoDal UserInfoDal

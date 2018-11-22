@@ -11,6 +11,7 @@ namespace TestZ.OA.EFDAL
 {
     public class UOrderInfoDal :BaseDal<UserInfo>,IUserInfoDal
     {
+        public string  Name { get; set; }
         //DataModelContainer db = new DataModelContainer();
         ////crud
         //#region 查询
