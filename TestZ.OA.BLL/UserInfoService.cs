@@ -14,7 +14,7 @@ namespace TestZ.OA.BLL
 
    //变化点：1 跨数据库 2数据库访问驱动层驱动变化 
     //crud
-    public class UserInfoService
+    public class UserInfoService:BaseService<UserInfo>
     {
         //依赖接口编程
         //IUserInfoDal UserInfoDal = new UserInfoDal();
@@ -27,13 +27,13 @@ namespace TestZ.OA.BLL
 
         //更高级 IOC DI依赖注入的方式 string.net
 
-        public UserInfo Add(UserInfo  userInfo) //单元工作模式
-        {
+        //public UserInfo Add(UserInfo  userInfo) //单元工作模式
+        //{
 
-            //return UserInfoDal.Add(userInfo);
-            dbSession.UserInfoDal.Add(userInfo);
+        //    //return UserInfoDal.Add(userInfo);
+        //    dbSession.UserInfoDal.Add(userInfo);
                         
-            dbSession.SaveChanges();   //数据提交的权利从数据库访问层提到了逻辑层
-        }
+        //    dbSession.SaveChanges();   //数据提交的权利从数据库访问层提到了逻辑层
+        //}
     }
 }
