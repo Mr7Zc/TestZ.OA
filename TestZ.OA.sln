@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.Model", "TestZ.OA.Model\TestZ.OA.Model.csproj", "{1F4D18A3-787C-43FB-BE10-EB6756026B08}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.IDAL", "TestZ.OA.IDAL\TestZ.OA.IDAL.csproj", "{75A1EDEA-1717-4344-9733-A4C47A1B37A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.DALFactory", "TestZ.OA.DALFactory\TestZ.OA.DALFactory.csproj", "{0C950B6F-2351-484C-95FC-B1485F7E6A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZ.OA.IBLL", "TestZ.OA.IBLL\TestZ.OA.IBLL.csproj", "{7BECC546-82C2-4FCD-A7AF-27DAC27A9AF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,9 +56,12 @@ Global
 		{75A1EDEA-1717-4344-9733-A4C47A1B37A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75A1EDEA-1717-4344-9733-A4C47A1B37A9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C950B6F-2351-484C-95FC-B1485F7E6A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C950B6F-2351-484C-95FC-B1485F7E6A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C950B6F-2351-484C-95FC-B1485F7E6A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C950B6F-2351-484C-95FC-B1485F7E6A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BECC546-82C2-4FCD-A7AF-27DAC27A9AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BECC546-82C2-4FCD-A7AF-27DAC27A9AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BECC546-82C2-4FCD-A7AF-27DAC27A9AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BECC546-82C2-4FCD-A7AF-27DAC27A9AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

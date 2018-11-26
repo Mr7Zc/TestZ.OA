@@ -23,7 +23,12 @@ namespace TestZ.OA.BLL
         //DbSession dbSession = new DbSession();
 
         //IDbSession dbSession = new DbSession();
-        private IDbSession dbSession = DbSessionFactory.GetCurrentDbSession();
+        //private IDbSession dbSession = DbSessionFactory.GetCurrentDbSession();
+
+        public override void SetCurrentDal()
+        {
+            CurrentDal = this.dbSession.UserInfoDal;
+        }
 
         //更高级 IOC DI依赖注入的方式 string.net
 
@@ -32,7 +37,7 @@ namespace TestZ.OA.BLL
 
         //    //return UserInfoDal.Add(userInfo);
         //    dbSession.UserInfoDal.Add(userInfo);
-                        
+
         //    dbSession.SaveChanges();   //数据提交的权利从数据库访问层提到了逻辑层
         //}
     }

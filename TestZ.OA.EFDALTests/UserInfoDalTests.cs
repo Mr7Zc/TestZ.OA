@@ -28,7 +28,7 @@ namespace TestZ.OA.EFDAL.Tests
         public void GetUsersTest()
         {
             //测试 获取数据方法
-            IUserInfoDal dal = new IUserInfoDal();
+            UserInfoDal dal = new UserInfoDal();
             //单元测试必须自己处理数据，不能依赖第三方数据，如果依赖那么先自己创建数据，然后在用完之后，再清楚数据。
 
             //创建测试数据

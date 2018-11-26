@@ -64,9 +64,25 @@
     <Compile Include="UserInfoDalTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TestZ.OA.BLL\TestZ.OA.BLL.csproj">
+      <Project>{0560cf5e-bf9a-4ce9-b4d5-e09746412c1d}</Project>
+      <Name>TestZ.OA.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.DALFactory\TestZ.OA.DALFactory.csproj">
+      <Project>{0c950b6f-2351-484c-95fc-b1485f7e6a6f}</Project>
+      <Name>TestZ.OA.DALFactory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TestZ.OA.EFDAL\TestZ.OA.EFDAL.csproj">
       <Project>{F17F92E2-4DF2-4943-B269-747E06E9144D}</Project>
       <Name>TestZ.OA.EFDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.IBLL\TestZ.OA.IBLL.csproj">
+      <Project>{7becc546-82c2-4fcd-a7af-27dac27a9af9}</Project>
+      <Name>TestZ.OA.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.IDAL\TestZ.OA.IDAL.csproj">
+      <Project>{75a1edea-1717-4344-9733-a4c47a1b37a9}</Project>
+      <Name>TestZ.OA.IDAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\TestZ.OA.Model\TestZ.OA.Model.csproj">
       <Project>{1F4D18A3-787C-43FB-BE10-EB6756026B08}</Project>

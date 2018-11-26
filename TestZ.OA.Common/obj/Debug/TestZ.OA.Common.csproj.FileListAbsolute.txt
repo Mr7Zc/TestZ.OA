@@ -1,0 +1,4 @@
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Common\bin\Debug\TestZ.OA.Common.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Common\bin\Debug\TestZ.OA.Common.pdb
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Common\obj\Debug\TestZ.OA.Common.dll
+E:\WStation\TestZ\TestZ.OA\TestZ.OA.Common\obj\Debug\TestZ.OA.Common.pdb

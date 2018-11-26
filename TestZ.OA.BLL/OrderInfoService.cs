@@ -7,7 +7,11 @@ using TestZ.OA.Model;
 
 namespace TestZ.OA.BLL
 {
-    public class OrderInfoService:BaseService<OrderInfo>
+    public class OrderInfoService : BaseService<OrderInfo>
     {
+        public override void SetCurrentDal()
+        {
+            CurrentDal = this.dbSession.OrderInfoDal;
+        }
     }
 }

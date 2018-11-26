@@ -90,10 +90,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\UserInfoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -102,6 +111,9 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Views\UserInfo\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\UserInfo\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,8 +123,41 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestZ.OA.BLL\TestZ.OA.BLL.csproj">
+      <Project>{0560cf5e-bf9a-4ce9-b4d5-e09746412c1d}</Project>
+      <Name>TestZ.OA.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.Common\TestZ.OA.Common.csproj">
+      <Project>{78e39ec1-4f0b-4e2f-98d0-1c9fe9412ba1}</Project>
+      <Name>TestZ.OA.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.DALFactory\TestZ.OA.DALFactory.csproj">
+      <Project>{0c950b6f-2351-484c-95fc-b1485f7e6a6f}</Project>
+      <Name>TestZ.OA.DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.EFDALTests\TestZ.OA.EFDALTests.csproj">
+      <Project>{f278803b-e23b-4177-92d3-56288a8650dd}</Project>
+      <Name>TestZ.OA.EFDALTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.EFDAL\TestZ.OA.EFDAL.csproj">
+      <Project>{f17f92e2-4df2-4943-b269-747e06e9144d}</Project>
+      <Name>TestZ.OA.EFDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.IBLL\TestZ.OA.IBLL.csproj">
+      <Project>{7becc546-82c2-4fcd-a7af-27dac27a9af9}</Project>
+      <Name>TestZ.OA.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.IDAL\TestZ.OA.IDAL.csproj">
+      <Project>{75a1edea-1717-4344-9733-a4c47a1b37a9}</Project>
+      <Name>TestZ.OA.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestZ.OA.Model\TestZ.OA.Model.csproj">
+      <Project>{1f4d18a3-787c-43fb-be10-eb6756026b08}</Project>
+      <Name>TestZ.OA.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
